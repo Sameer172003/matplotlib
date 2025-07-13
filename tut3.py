@@ -21,6 +21,11 @@ plt.ylabel("Number of Users")
 plt.bar(p,y,width,color='r',label="Popularity_1")
 plt.bar(p1,z,width,color='y',label="Popularity_2")
 
+# If we want a horizontal bar graph
+
+# plt.barh(p,y,width,color='r',label="Popularity_1")
+# plt.barh(p1,z,width,color='y',label="Popularity_2")
+
 plt.xticks(p+width/2,x,rotation=15)
 
 plt.legend()
